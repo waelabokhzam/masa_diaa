@@ -281,12 +281,16 @@
         }
 
 
-        .number-input::-webkit-inner-spin-button,
-        .number-input::-webkit-outer-spin-button {
+       .number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
-            opacity: 1;
-
-        }
+.number-input {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
 
     </style>
 
